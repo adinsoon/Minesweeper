@@ -16,10 +16,10 @@ Board::Board(int h, int w, GameMode m){
     fillBoard(mode);
 }
 
-void Board::fillBoard(GameMode m) {
+void Board::fillBoard(GameMode &m) {
     countMinesToPut();
     int row = 0,col = 0;
-    if(mode != DEBUG){
+    if(m != DEBUG){
         for(int putBomb=0;putBomb<minesCount;++putBomb){
             row = rand()%height;
             col = rand()%width;
@@ -85,6 +85,10 @@ int Board::getBoardHeight() const {
 
 int Board::getMineCount() const {
     return minesCount;
+}
+
+GameMode Board::getGameMode() const {
+    return mode;
 }
 
 ////////////////////////////////////

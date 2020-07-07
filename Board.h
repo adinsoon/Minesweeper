@@ -30,7 +30,7 @@ class Board {
     GameState state;
     void countMinesToPut();
     // put bombs on board according to selected mode
-    void fillBoard(GameMode m);
+    void fillBoard(GameMode &m);
     // prepare clean board ready to fill
     void resetBoard();
 public:
@@ -45,6 +45,7 @@ public:
     int getBoardWidth() const;
     int getBoardHeight() const;
     int getMineCount() const;
+    GameMode getGameMode() const;
 
     // return true if the field at (row,col) position was marked with flag
     // return false if any of the following is true:
