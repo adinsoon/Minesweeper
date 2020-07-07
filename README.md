@@ -1,5 +1,7 @@
 # MINESWEEPER
 
+[SFML Required]
+
 The original look of the project 
 
 I'm not planning to change it because it would be too much interference in the primary design
