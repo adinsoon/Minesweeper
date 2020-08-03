@@ -1,11 +1,27 @@
 # MINESWEEPER
 
-[SFML Required]
+**[SFML Required]**
 
-The original look of the project 
+## Abstract 
+View below is the original look of the project 
 
-I'm not planning to change it because it would be too much interference in the primary design
+It was my really first project in C++.
+Compared to the original version it's only improved in the context of code transparency and purity and nothing else because it would be too much interference in the primary design. By not editing it too much, I also wanted to show the development of my programming thinking by presenting my first projects almost unchanged
 
+## Description 
+The project consist of:
+  * interactive menu:
+    - game mode selection 
+  * game window
+  * message boxes:
+    - a message suited to the result of the game
+    
+The game also includes soundtracks:
+1. While clicking
+2. Winning
+3. Losing
+    
+## Pictures of the game
 ![Menu](https://i.imgur.com/Up9Y76v.png)
 ![Menu](https://i.imgur.com/9vu0Ov4.png)
 
